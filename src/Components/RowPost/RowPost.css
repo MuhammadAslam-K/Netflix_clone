@@ -1,0 +1,30 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;  /* the cart will not exide the width */
+    overflow-y: hidden;  /* same as abou */
+}
+.posters::-webkit-scrollbar{
+    display: none;          /* the scroll bar woll disavilable */
+}
+.poster{
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.small_poster{
+    max-height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.poster:hover{
+    transform: scale(1.2);
+}
+.small_poster:hover{
+    transform: scale(1.2);
+}
